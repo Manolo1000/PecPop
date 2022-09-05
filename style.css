@@ -4,6 +4,8 @@ body {
     background: linear-gradient(to right, #fbaed2, #ffffff);
     overflow-y: hidden;
     font-family: Nunito, sans-serif;
+    Overflow-x:scroll;
+    Overflow-y:scroll; 
 }
 .container{
     display: flex;
@@ -13,11 +15,18 @@ body {
 }
 h1{
     font-size: 6.5em;
-    margin: 1% 0% -5% 0%;
+    margin: -2% 0% -5% 0%;
     font-family: Nunito, sans-serif;
     -webkit-text-stroke: 2px black;
     color: white;
 }
+.header img {
+    margin-right: 3%;
+    margin-top: -0%;
+    width: 75px;
+    height: 75px;
+  }
+
 img{
     margin-top: 3%;
 }
@@ -29,7 +38,7 @@ img{
     font-family: Nunito, sans-serif;
     -webkit-text-stroke: 2px black;
     color: white;
-    margin-bottom: -6%;
+    margin-bottom: -5%;
 }
 button{
     margin-top: 4%;
@@ -38,6 +47,29 @@ button{
     padding: 10px 250px 10px 250px;
     border: none;
     outline: none;
+}
+#connectWallet{
+    margin-top: 0%;
+    font-size: 12px;
+    background-color: none;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    
+}
+#getBalance{
+    margin-top: 0%;
+    font-size: 12px;
+    background-color: none;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
 }
 .tabs {
     margin-top: 1%;
